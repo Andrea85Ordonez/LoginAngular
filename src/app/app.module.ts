@@ -17,6 +17,10 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { LoginModule } from './login/login.module';
 import { HomeModule } from './home/home.module';
+import {MatMenuModule} from '@angular/material/menu';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -41,6 +45,9 @@ import { HomeModule } from './home/home.module';
     MatIconModule,
     LoginModule,
     HomeModule,
+    MatMenuModule, 
+    CommonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
